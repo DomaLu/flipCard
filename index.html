@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body, html {
+			max-width: 960px;	
+			height: 100%;
+			margin: 0 auto;
+			clear: both;
+		}
+		
+		.set {
+			width: calc(12.5% - 20px);
+			margin: 10px;
+			height: 150px;
+			float: left;
+			cursor: pointer;
+/*			transition: background-color .5s;*/
+			position: relative;
+		}
+		
+		.set > div {
+			font-family: arial;
+			width: 100%;
+			height: 100%;
+			backface-visibility: hidden;
+			transition: .5s;
+			border-radius: 8px;
+			text-align: center;
+			font-size: 56px;
+			color: #fff;
+		}
+		
+		.card {
+			background-color: rebeccapurple;
+			transform: perspective(300px) rotateY(0deg);
+		}
+		
+		.card:after {
+			content: '?';
+			display: block;
+			width: 100%;
+			line-height: 150px;
+			font-weight: 100;
+		}
+
+		.card:hover {
+			background-color: #1b039c;
+		}
+		
+		.flag > .card {
+			transform: perspective(300px) rotateY(-180deg)
+		}
+		
+		.number {
+			background-color: #fff;
+			box-shadow: 0 0 0 1px rebeccapurple;
+			position: absolute;
+			top: 0;
+			left: 0;
+			transform: perspective(300px) rotateY(180deg);
+			line-height: 150px;
+
+		}
+
+		.flag > .number {
+			transform: perspective(300px) rotateY(0deg);
+			box-shadow: 0 0 0 1px #1b039c;
+			color: #1b039c;
+		}
+		
+		.on {
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+		<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	<div class="set">
+		<div class="card"></div>
+		<div class="number"></div>
+	</div>
+	
+	<script src='main.js'></script>
+</body>
+</html>
